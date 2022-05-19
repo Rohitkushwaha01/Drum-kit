@@ -49,12 +49,12 @@ function makeSound(key) {
 
         case "j":
             var crash = new Audio('sounds/crash.mp3');
-            snare.play();
+            crash.play();
             break;
 
         case "k":
             var snare = new Audio('sounds/snare.mp3');
-            crash.play();
+            snare.play();
             break;
 
         case "l":
